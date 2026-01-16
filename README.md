@@ -1,8 +1,8 @@
-# FX Market Analysis with Power BI and REST APIs
+# Forex Market Analysis with Power BI and REST APIs
 
 A complete Business Intelligence project focused on analyzing foreign exchange market data using real time REST APIs. This project demonstrates end to end BI skills, from consuming JSON data via public APIs to transforming, modeling, and visualizing financial time series data in Power BI.
 
-The dashboard provides daily price trend analysis, volatility insights, and moving average indicators for major FX pairs, enabling exploratory market analysis and technical insight generation.
+The dashboard provides daily price trend analysis, volatility insights, and moving average indicators for major Forex pairs, enabling exploratory market analysis and technical insight generation.
 
 ---
 
@@ -22,7 +22,7 @@ The data is sourced directly from the **Alpha Vantage REST API**, returned in **
 * Build fact tables from time series API responses
 * Apply time intelligence using a shared date dimension
 * Create financial indicators using DAX
-* Design a clean and analytical FX dashboard
+* Design a clean and analytical Forex dashboard
 
 ---
 
@@ -109,7 +109,7 @@ Grain: one row per currency pair per trading day.
 
 ### Relationships
 
-* One to many relationship between `Dim_Date[Date]` and each FX fact table
+* One to one relationship between `Dim_Date[Date]` and each FX fact table
 * Active relationships used for DAX time calculations
 
 ### Data Model View
